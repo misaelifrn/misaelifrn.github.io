@@ -954,6 +954,11 @@ body.light footer {
         margin: auto
     }
 
+    .habilidades h1,
+    .contato-box h1 {
+        font-size: 42px;
+    }
+
     .links-container {
         width: 100%;
         /* width: 90%; */
@@ -1011,6 +1016,10 @@ body.light footer {
 
     #habilidades {
         height: 90vh;
+    }
+
+    .icons-habilidades {
+        display: none;
     }
 
     nav ul li a:hover,
