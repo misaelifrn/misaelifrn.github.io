@@ -1,6 +1,6 @@
 console.log("Funcionando!");
 
-// tema lógica
+/* Lógica de tema */
 const temaBtn = document.getElementById("themeBtn");
 const sol = document.getElementById("claro");
 const lua = document.getElementById("escuro");
@@ -8,8 +8,6 @@ const lua = document.getElementById("escuro");
 const body = document.querySelector("body");
 
 let isLight = false;
-
-/* Lógica de tema */
 
 function mudarTema() {
     if (isLight == false) { // verificarTema() == false 
@@ -42,19 +40,19 @@ document.addEventListener("DOMContentLoaded", function () {
     const nav = document.querySelector("nav");
     const ulNav = document.getElementById("ulNav");
 
-    let isAberto = true;
+    let isAberto = false;
 
     burgerBtn.addEventListener("click", function () {
-        if (isAberto) {
+        if (isAberto == false) {
             nav.classList.add("menu-aberto");
             ulNav.classList.add("menu-aberto");
 
-            isAberto = false;
+            isAberto = true;
         } else {
             nav.classList.remove("menu-aberto");
             ulNav.classList.remove("menu-aberto");
 
-            isAberto = true;
+            isAberto = false;
         }
     });
 });
