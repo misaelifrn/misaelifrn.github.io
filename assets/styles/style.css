@@ -718,8 +718,16 @@ nav ul {
     margin-top: 10%;
 }
 
+#projetos {
+    margin-bottom: 15%;
+}
+
 #habilidades {
     height: 150vh;
+}
+
+#habilidades h1 {
+    margin-bottom: 18%;
 }
 
 #contato {
@@ -858,6 +866,7 @@ body.light footer {
 
         height: 100%;
         width: 90%;
+        overflow-y: hidden;
         padding-bottom: 10px;
 
         border-bottom: 1px solid rgb(255, 255, 255, 0.3);
@@ -872,8 +881,8 @@ body.light footer {
         width: 80%;
 
         border-right: none;
-        opacity: 0;
-        pointer-events: none;
+        /* opacity: 0;
+        pointer-events: none; */
     } 
 
     nav ul li a {
@@ -890,12 +899,12 @@ body.light footer {
     }
 
     nav.menu-aberto {
-        height: auto;
+        height: 230%;
     }
 
     nav ul.menu-aberto {
-        opacity: 1;
-        pointer-events: visible;
+        /* opacity: 1;
+        pointer-events: visible; */
     }
 
     .br-mobile {
@@ -1050,6 +1059,48 @@ body.light footer {
     body.light .li-habilidades,
     body.light nav ul {
         border-right: 0px solid transparent;
+    }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+    section {
+        margin: 100px 0px;
+    }
+
+    .inicio-box {
+        margin-top: 20%;
+    }
+
+    nav.menu-aberto {
+        height: 175%;
+    }
+
+    .misael-inicio-img img {
+        width: 30%;
+    }
+
+    .misael-inicio-img img:hover {
+        width: 30%;
+    }
+
+    .br-mobile {
+        display: none;
+    }
+
+    #projetos {
+        margin-bottom: 20%;
+    }
+
+    #habilidades h1 {
+        margin-bottom: 10%;
+    }
+
+    #contato {
+        margin-bottom: 30%;
+    }
+
+    footer {
+        margin-bottom: 10px;
     }
 }
 
