@@ -864,7 +864,7 @@ body.light footer {
         flex-direction: column;
         align-items: center;
 
-        height: 100%;
+        height: 105%;
         width: 90%;
         overflow-y: hidden;
         padding-bottom: 10px;
@@ -902,10 +902,10 @@ body.light footer {
         height: 230%;
     }
 
-    nav ul.menu-aberto {
-        /* opacity: 1;
-        pointer-events: visible; */
-    }
+    /* nav ul.menu-aberto {
+        opacity: 1;
+        pointer-events: visible;
+    } */
 
     .br-mobile {
         display: block;
@@ -1021,6 +1021,10 @@ body.light footer {
     #projetos {
         height: auto;
         margin-bottom: 100%;
+    }
+
+    #sobre {
+        margin-bottom: 30%;
     }
 
     #habilidades {
