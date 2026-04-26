@@ -39,6 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const burgerBtn = document.getElementById("burger");
     const nav = document.querySelector("nav");
     const ulNav = document.getElementById("ulNav");
+    const aItensNav = document.querySelectorAll("aItensNav");
 
     let isAberto = false;
 
@@ -55,4 +56,11 @@ document.addEventListener("DOMContentLoaded", function () {
             isAberto = false;
         }
     });
+
+    // aItensNav.addEventListener("click", function () {
+    //     aItensNav.forEach(a => {
+    //         nav.classList.remove("menu-aberto");
+    //         ulNav.classList.remove("menu-aberto");
+    //     });
+    // });
 });
